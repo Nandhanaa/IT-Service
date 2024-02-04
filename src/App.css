@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@200;300;400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@100&family=Neuton&family=Nunito+Sans:opsz,wght@6..12,300&family=PT+Serif:ital@0;1&family=Vollkorn&display=swap');
+
+*{
+  box-sizing:border-box;
+  margin:0;
+  padding:0;
+  
+  color:white;
+  font-size:27px;
+  background-color: black;
+}
+.logo1{
+  height:250px;
+  width:300px;
+  padding:17px;
+ margin-right: 20px;
+ display:inline-block;
+ border:1px solid rgb(46, 41, 41);
+}
+a{
+  text-decoration:none;
+  color:#fff;
+  font-family:"Outfit",sans-serif;
+}
+ul{
+  list-style: none;
+}
+.header{
+  display:flex;
+  justify-content:space-between;
+  align-items:center;
+  
+  font-family:"Outfit",sans-serif;
+  
+}
+
+.into-img{
+  width:100%;
+  height:100%;
+ 
+  object-fit:cover;
+  opacity: 35%;
+}
+
+
+
+
+
+.content {
+  position: absolute;
+top:70%;
+bottom:600%;
+transform:translate(0,-170%);
+  text-align: center;
+ 
+}
+.nav-menu{
+  display:flex;
+}
+.nav-menu li{
+  padding:0 1rem;
+}
+.nav-menu li a{
+  font-size:1.2rem;
+  font-weight:500;
+}
+.nav li.active{
+  background-color: #555;
+}
+.nav li:hover{
+  background-color:#777;
+}
+
+.logoc{
+  height:150px;
+  width:200px;
+}
+.imp:hover{
+  background-color:rgb(47, 47, 47);
+  border-radius: 10px;
+  border-color: #656363;
+}
+.text1{
+  font-family: 'Neuton', serif;
+  font-size: 70px;
+  letter-spacing: 3px;
+}
+.text2{
+  font-size:35px;
+}

@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@100&family=Nunito+Sans:opsz,wght@6..12,300&family=PT+Serif:ital@0;1&display=swap');
+.sect1{
+    background-color:white;
+    min-height:90vh;
+    width:100%;
+  
+    padding:40px;
+    display: grid;
+    grid-template-columns: auto 1fr;
+    align-items: center;
+}
+.txt1 {
+    font-family: 'Nunito Sans', sans-serif;
+font-family: 'PT Serif', serif;
+    background-color: transparent;
+    position: absolute;
+    width:35%;
+    height:55%;
+    right:5%;
+    margin-left:10%;
+    font-size: 45px;
+    color:rgb(57, 57, 119);
+}
+.txt12{
+    font-family: 'Josefin Sans', sans-serif;
+    background-color: transparent;
+    position: absolute;
+    width:35%;
+    height:55%;
+    right:5%;
+    margin-left:10%;
+    margin-top: 450px;
+    font-weight: bold;
+    color:rgb(15, 15, 35);
+}
+.imge3{
+    height:100%;
+    width:850px;
+    object-fit: cover;
+    grid-column: 1;
+    margin-right: 20px;
+    margin-bottom:100px;
+}
+.txt3{
+    font-family: 'Nunito Sans', sans-serif;
+    font-family: 'PT Serif', serif;
+        background-color: transparent;
+        position: absolute;
+        width:35%;
+        height:55%;
+        right:5%;
+        margin-left:10%;
+        font-size: 45px;
+        margin-bottom: 100px;
+}
+.txt32{
+    font-family: 'Josefin Sans', sans-serif;
+    background-color: transparent;
+    position: absolute;
+    width:35%;
+    height:55%;
+    right:5%;
+    margin-left:10%;
+    margin-top: 300px;
+    font-weight: bold;
+}
+.txt22{
+    font-family: 'Josefin Sans', sans-serif;
+    background-color: transparent;
+    font-weight: bold;
+   padding:20px;
+}
+.txt2{
+    font-family: 'Nunito Sans', sans-serif;
+    font-family: 'PT Serif', serif;
+        background-color: transparent;
+        font-size: 45px;
+        padding:20px;
+        transform:translateY(100%);
+        
+}
+
+.imge1{
+    height:100%;
+    width:850px;
+    object-fit: cover;
+    grid-column: 1;
+    margin-right: 20px;
+}
+.imge2{
+    height:100%;
+    width:850px;
+    object-fit: cover;
+    grid-column: 0;
+    margin-right: 20px;
+     margin-bottom:100px;
+}
+.sect2{
+    background-color:rgb(20, 2, 37);
+    min-height:90vh;
+    width:100%;
+    display: grid;
+    grid-template-columns: auto 1fr;
+    align-items: center;
+}
+
+.sect3{
+    background-color:rgb(14, 14, 80);
+    min-height:90vh;
+    width:100%;
+    display: grid;
+    grid-template-columns: auto 1fr;
+}
+.sector1{
+    height:300vh;
+}

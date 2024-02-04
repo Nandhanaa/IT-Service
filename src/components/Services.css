@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@200;300;400;500;600;700;800;900&family=Playpen+Sans:wght@600&display=swap');
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+   
+}
+body{
+    background-color:white;
+    color:black;
+}
+.container{
+    max-width:1300px;
+    width:100%;
+    margin:auto;
+}
+section{
+    min-height:100vh;
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+}
+.head1{
+    font-size:50px;
+    line-height:60px;
+    text-align:center;
+    margin-bottom:40px;
+}
+.cards{
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:space-between;
+
+}
+.title1 {
+    font-family: 'Outfit', sans-serif;
+    font-family: 'Playpen Sans';
+    text-align: center;
+    font-size: 25px;
+    COLOR:rgb(204, 204, 217);
+}
+.p1{
+    font-family: 'Outfit', sans-serif;
+    font-family: 'Playpen Sans'; 
+    font-size: 20px;
+    text-align:center;
+}
+.card{
+    flex: 0 0 calc(33.33% - 20px);
+    max-width:calc(33.33% -20px);
+    width:100%;
+    
+    border-radius:10px;
+    padding:20px;
+    margin-bottom:20px;
+    transition:.3s;
+    border:5px solid rgb(69, 66, 66);
+    
+}
+.p2{
+    position:absolute;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 25px;
+}
+.card:hover{
+    border-color:#c41db3;
+}
